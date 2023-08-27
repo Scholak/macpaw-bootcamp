@@ -15,6 +15,9 @@ export { default as SearchResults } from './SearchResults/SearchResults'
 export { default as LikesDislikes } from './LikesDislikes/LikesDislikes'
 export { default as Favorites } from './Favorites/Favorites'
 
+// Home Page Related Components
+export { default as HomapageImage } from './HomapageImage/HomapageImage'
+
 // Breed Pages Related Components
 export { default as BreedList } from './BreedList/BreedList'
 export { default as BreedDetail } from './BreedDetail/BreedDetail'
