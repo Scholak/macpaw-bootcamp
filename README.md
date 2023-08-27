@@ -12,6 +12,9 @@ The app displays the breed details. You can filter, search by name, order, limit
 1. Responsive Design. 992px for tablet view and 576px for mobile view.
 2. Dark Mode Support. You can switch the mode by clicking the button which is located on top middle of the page.
 
+## App Url
+https://macpaw-bootcamp-taupe.vercel.app/
+
 ## For Developers
 
 ### Tech Stack
