@@ -42,7 +42,7 @@ I could fetch api in react server components and display loader by creating load
 I know testing (unit tests, mocking, mock service worker etc.) but I don't have enough time to implement it. I Just have like 3-4 days to implement these features. Therefore I focused on parts in 'As a plus' section to increase get hired change. But if I had enough time, I would install necessary packages and create tests cases for each component. 
 
 ### Installation Guide
-1. Clone the project: `git clone https://github.com/Scholak/petspaw.git`
+1. Clone the project: `git clone https://github.com/Scholak/macpaw-bootcamp.git`
 2. Install the dependencies `yarn install` or `npm install`
 3. Create the `.env` file and add environment variables from `.env.example`
 4. Run `yarn dev` or `npm run dev`
