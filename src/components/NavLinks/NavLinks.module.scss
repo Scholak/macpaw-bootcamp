@@ -1,0 +1,40 @@
+.links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  
+  li {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 20px;
+    transition: all .3s;
+
+    &.active {
+      background: #FF868E;
+
+      a {
+        color: #ffffff;
+      }
+    }
+    
+    a {
+      color: #FF868E;
+      font-size: 32px;
+      transform: translateY(5px);
+      transition: all .3s;
+    }
+  }
+}
+
+// Dark Mode Styles
+.links.dark li {
+  background: #FFFFFF0D;
+
+  &.active {
+    background: #FF868E;
+  }
+}

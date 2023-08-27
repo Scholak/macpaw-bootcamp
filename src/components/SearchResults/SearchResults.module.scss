@@ -1,0 +1,70 @@
+.resultsSection {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+  .resultText {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #8C8C8C;
+    
+    span {
+      font-weight: 500;
+      color: #1D1D1D;
+      transition: all .3s;
+    }
+  }
+  
+  .breeds .breed {
+    
+    p {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 10px;
+      background: #ffffff;
+      color: #FF868E;
+      transform: translateY(100%);
+      opacity: 0;
+      transition: all .3s;
+      cursor: pointer;
+      z-index: 1;
+    }
+    
+    &:hover p {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(255, 134, 142, 0.60);
+      opacity: 0;
+      transition: all .3s;
+    }
+    
+    &:hover .overlay {
+      opacity: 1;
+    }
+  }
+}
+
+// Dark Mode Styles
+.resultsSection.dark {
+  .resultText span {
+    color: #ffffff;
+  }
+  
+  .breeds .breed p {
+    background: #282828;
+    color: #FF868E;
+  }
+}

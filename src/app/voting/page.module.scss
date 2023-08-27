@@ -1,0 +1,18 @@
+.votingSection {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+  .heading {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+// Dark Mode Styles
+.votingSection.dark {
+  background: #FFFFFF0D;
+}

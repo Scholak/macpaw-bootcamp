@@ -1,0 +1,54 @@
+.breed {
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #FF868E;
+    opacity: 0;
+    font-size: 24px;
+    transition: all .3s;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  &:hover span {
+    opacity: 1;
+  }
+  
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 134, 142, 0.60);
+    opacity: 0;
+    transition: all .3s;
+  }
+  
+  &:hover .overlay {
+    opacity: 1;
+  }
+}
+
+.empty {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  height: 60px;
+  padding-left: 20px;
+  background: #F8F8F7;
+  color: #8C8C8C;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+// Dark Mode Styles
+.breeds.dark .empty {
+  background: #FFFFFF0D;
+}

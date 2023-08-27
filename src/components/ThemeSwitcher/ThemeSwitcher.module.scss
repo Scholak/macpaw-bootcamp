@@ -1,0 +1,42 @@
+.switch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+  &.active button span {
+    transform: translateX(-20px);
+  }
+  
+  .iconWrapper {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    color: #FF868E;
+    border-radius: 50px;
+  }
+  
+  button {
+    position: relative;
+    outline: none;
+    border: none;
+    width: 44px;
+    height: 24px;
+    border-radius: 50px;
+    background: #FBE0DC;
+    cursor: pointer;
+    
+    span {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      width: 16px;
+      height: 16px;
+      background: #FF868E;
+      border-radius: 50px;
+      transition: all .3s;
+    }
+  }
+}
