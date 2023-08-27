@@ -82,6 +82,7 @@
 @media screen and (max-width: 576px) {
   .heading {
     height: 140px !important;
+    max-width: 100% !important;
     flex-wrap: wrap;
 
     & > * {
@@ -93,7 +94,7 @@
     }
 
     .category {
-      min-width: 300px;
+      min-width: 250px;
     }
   }
 }

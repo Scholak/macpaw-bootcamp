@@ -4,7 +4,7 @@
   padding: 30px 50px 30px 150px;
   overflow: hidden;
   transition: all .3s;
-
+  
   .left {
     display: flex;
     align-items: center;
@@ -55,11 +55,15 @@
 
 // Responsive Styles
 @media screen and (max-width: 576px) {
-  .right {
-    flex-wrap: wrap;
-    
-    .burgerIcon {
-      margin-right: auto;
+  .navbar {
+    padding: 20px 25px;
+
+    .right {
+      flex-wrap: wrap;
+      
+      .burgerIcon {
+        margin-right: auto;
+      }
     }
   }
 }
@@ -67,7 +71,7 @@
 // Dark Mode Styles
 .navbar.dark {
   background: #1D1D1D;
-
+  
   .burgerIcon {
     background: #ffffff0d;
   }
