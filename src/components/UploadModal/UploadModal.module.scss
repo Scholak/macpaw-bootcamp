@@ -154,6 +154,38 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  .modal {
+    inset: 10px;
+    padding: 60px 10px;
+
+    .closeIcon {
+      top: 20px;
+      right: 20px;
+    }
+
+    .title {
+      margin-bottom: 0;
+    }
+
+    .dropzone, .imageWrapper {
+      height: 240px;
+    }
+
+    .subTitle {
+      margin-bottom: 20px;
+    }
+
+    .info {
+      margin-top: 5px;
+
+      button {
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
 // Dark Mode Styles
 .modal.dark {
   background: #282828;
