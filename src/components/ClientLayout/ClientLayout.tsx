@@ -15,6 +15,18 @@ const ClientLayout = ({ children }: ClientLayoutProps) => {
 
 	const { theme } = useSelector((state: RootState) => state.theme)
 
+	/*
+		Windows 11 default zoom value is 1.25
+		It causes overflows and bugs in UI. the 
+		code below checks the screen size and 
+		sets the zoom value according to screen 
+		width property.
+	*/
+	if (screen.width > 1200 && screen.width < 1800) {
+		// @ts-ignore
+		document.body.style.zoom = 0.75
+	}
+
 	return (
 		<>
 			<Navbar />
