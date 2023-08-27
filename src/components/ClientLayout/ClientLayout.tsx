@@ -22,7 +22,7 @@ const ClientLayout = ({ children }: ClientLayoutProps) => {
 		sets the zoom value according to screen 
 		width property.
 	*/
-	if (screen.width > 1200 && screen.width < 1800) {
+	if (typeof screen !== 'undefined' && screen.width > 1200 && screen.width < 1800) {
 		// @ts-ignore
 		document.body.style.zoom = 0.75
 	}
